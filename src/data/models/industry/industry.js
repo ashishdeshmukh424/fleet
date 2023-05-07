@@ -45,7 +45,7 @@ export default (sequelize, DataTypes) => {
   // };
 
   Industry.getAll = async (includePassword) => {
-    if (includePassword) return Industry.findAll({});
+    // if (includePassword) return Industry.findAll({});
 
     return Industry.findAll({
       // attributes: { exclude: ['password'] },
